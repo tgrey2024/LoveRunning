@@ -23,6 +23,10 @@ header {
     background-color: #9898ef;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: #f1b0b0;
