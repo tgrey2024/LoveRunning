@@ -50,23 +50,25 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
-    position:absolute;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;   /* tells element to start from bottom of parent element (0% is top of parent, 100% is bottom) */
+    top: 100%;
+    /* tells element to start from bottom of parent element (0% is top of parent, 100% is bottom) */
 }
 
 /* Nav toggle */
@@ -75,7 +77,8 @@ nav {
 }
 
 #nav-toggle {
-    display: none;     /* makes checkbox disappear */
+    display: none;
+    /* makes checkbox disappear */
 }
 
 .nav-toggle-label {
@@ -86,11 +89,36 @@ nav {
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;     /* flex-grow but no shrink basis: auto */
+    flex: 1 0 auto;
+    /* flex-grow but no shrink basis: auto */
     margin-top: 47px;
 }
 
 /* Footer */
 footer {
     background-color: green;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    
+    .nav-toggle-label {
+        display: none;
+    }
 }
