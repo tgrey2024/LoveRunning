@@ -15,16 +15,17 @@ body {
     flex-direction: column;
     /* Generic properties */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: blue;
+    background-color: #9898ef;
 }
 
 /* Main content */
 main {
-    background-color: red;
+    background-color: #f1b0b0;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
