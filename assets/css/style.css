@@ -117,6 +117,20 @@ main {
     color: #ffffff;
 
 }
+
+#reasons {
+    margin: 20px auto;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#reasons h3, #reasons i {
+    display: inline-block;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
