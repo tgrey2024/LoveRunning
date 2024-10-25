@@ -135,6 +135,7 @@ main {
 
 #reasons h3, #reasons i {
     display: inline-block;
+    text-transform: uppercase;
 }
 
 #reasons hr {
