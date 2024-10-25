@@ -98,6 +98,7 @@ main {
     height: 600px;
     width: 100%;
     background:url("../images/hero-image.webp") no-repeat center center/cover;
+    /* cover means cover the whole viewport */
     position: relative;
 }
 
@@ -117,7 +118,7 @@ main {
     color: #ffffff;
 
 }
-
+/* Reasons section */
 #reasons {
     margin: 20px auto;
     width:90%;
@@ -147,6 +148,23 @@ main {
     padding: 0 20px;
 }
 
+#circle-cover-bg {
+    background:url("../images/reasons-image.webp") no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* makes square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 /* Footer */
 #social-networks {
     text-align: center;
