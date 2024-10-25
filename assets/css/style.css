@@ -120,15 +120,26 @@ main {
 
 #reasons {
     margin: 20px auto;
+    width:90%;
 }
 
-#benefits-physical > div, #benefits-mental > div {
+#reasons > h2 {
+    font-size: 280%;
+    text-align: center;
+}
+
+#reasons div {
     margin-bottom: 20px;
     line-height: 20px;
 }
 
 #reasons h3, #reasons i {
     display: inline-block;
+}
+
+#reasons hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
