@@ -128,19 +128,23 @@ main {
     text-align: center;
 }
 
-#reasons div {
+#benefits div {
     margin-bottom: 20px;
     line-height: 20px;
 }
 
-#reasons h3, #reasons i {
+#benefits h3, #benefits i {
     display: inline-block;
     text-transform: uppercase;
 }
 
-#reasons hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#benefits p {
+    padding: 0 20px;
 }
 
 /* Footer */
