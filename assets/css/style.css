@@ -165,6 +165,12 @@ main {
     justify-content: center;
 
 }
+
+#times h3, #times i {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
