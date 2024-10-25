@@ -25,6 +25,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 
 /* Header */
 header {
@@ -190,10 +194,6 @@ main {
     /* override the heading color set in general styles */
     color: #fafafa;
 }
-/* #times h3, #times i {
-    display: inline-block;
-    text-transform: uppercase;
-} */
 
 /* Footer */
 #social-networks {
