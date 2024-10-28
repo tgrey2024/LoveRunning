@@ -205,6 +205,16 @@ main {
     line-height: 0;
 }
 
+/* Signup page */
+#signup {
+    margin: 20px auto;
+    width:90%;
+}
+
+#signup h2{
+    font-size: 280%;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
